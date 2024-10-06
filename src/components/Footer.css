@@ -1,0 +1,42 @@
+footer {
+  display: flex;
+  justify-content: center;
+
+}
+
+.footer-content {
+  width: 80vw;
+  height: 30vh;
+  background: #F7F7F6;
+  margin-bottom: 100px;
+  border-radius: 25px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.log {
+  margin-left: 50px;
+  width: 300px;
+  cursor: pointer;
+}
+
+.list {
+  width: 40%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  line-height: 25px;
+  align-items: self-start;
+}
+
+li {
+  list-style: none;
+}
+
+.description {
+  position: relative;
+  top: 10vh;
+  right: 18vw;
+  width: 50%;
+}

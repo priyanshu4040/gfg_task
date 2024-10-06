@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  background-color: white;
+
+}
+
+.about-content {
+  width: 45%;
+}
+
+.about-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.learn-more {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #00aa00;
+}
+
+
+.box-cards {
+  width: 60%;
+  height: 50vh;
+  margin: 0% 20vw;
+}
+
+.card-1 {
+  position: relative;
+  width: 60%;
+  height: 50vh;
+  background-image: url(../assets/img1.png);
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.card-2 {
+  position: relative;
+  width: 40%;
+  height: 24vh;
+  background-image: url(../assets/img2.png);
+  background-size: cover;
+  bottom: 50vh;
+  left: 63%;
+  border-radius: 15px;
+}
+
+.card-3 {
+  position: relative;
+  width: 40%;
+  height: 24vh;
+  background-image: url(../assets/img3.png);
+  background-size: cover;
+  bottom: 48vh;
+  left: 63%;
+  border-radius: 15px;
+}
+
+
+
+.card h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #666;
+}

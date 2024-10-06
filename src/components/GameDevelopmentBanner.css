@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.chart {
+  text-align: center;
+  align-items: center;
+}
+
+#ch {
+  width: 60%;
+  height: 30vh;
+}
+
+.announcement-bar {
+  background-color: #f1f1f1;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.announcement-bar a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 20px;
+  background-color: #fafafa;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.hero-graphic img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Card Icons */
+.card-icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 20px;
+  background-color: #ddd;
+  border-radius: 50%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-graphic {
+    margin-top: 20px;
+  }
+}
